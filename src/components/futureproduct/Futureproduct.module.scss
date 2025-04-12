@@ -1,0 +1,48 @@
+//variables
+$fpara: #adb5bd;
+$tpara: black;
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  background-color: #F8F9FA;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .f {
+      color: $fpara;
+      font-size: 18px;
+    }
+
+    .s {
+      font-size: 40px;
+      font-weight: 900;
+    }
+
+    .t {
+      padding-top: 20px;
+      width: 45%;
+      text-align: center;
+      color: $tpara;
+      line-height: 1.8;
+      color: $fpara;
+    }
+
+  }
+
+    .cards {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+}

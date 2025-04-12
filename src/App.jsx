@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import Bigph from './components/bigph/Bigph'
 import Products from './components/products/Products'
 import Norph from './components/norph/Norph'
+import Futureproduct from './components/futureproduct/Futureproduct'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Bigph/>
       <Products/>
       <Norph/>
+      <Futureproduct/>
 
     </div>
   )

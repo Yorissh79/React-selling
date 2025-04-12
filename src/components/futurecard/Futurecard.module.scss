@@ -1,0 +1,119 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+
+  .imgbox {
+    width: 501px;
+    height: 501px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+  .text {
+    width: 461px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+
+    .para {
+        font-weight: 700;
+        font-size: xx-large;
+    }
+
+    .des {
+        color: grey;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .price {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+
+      .pric {
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+
+      .money {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 15px;
+
+        .f {
+            color: #adb5bd;
+        }
+
+        .s {
+            color: hsl(210, 2%, 40%);
+        }
+
+      }
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: row;
+
+      .detail {
+        background-color: #fff;
+        border: 2px solid black;
+        color: black;
+        font-size: 12px;
+        font-weight: 900;
+        width: 133px;
+        height: 34px;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: black;
+            border: none;
+            color: white;
+            transition: 0.3s;
+        }
+      }
+
+      .cart {
+        background-color: black;
+        border: none;
+        color: white;
+        font-size: 12px;
+        font-weight: 900;
+        width: 133px;
+        height: 34px;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: #fff;
+            border: 2px solid black;
+            color: black;
+            transition: 0.3s;
+        }
+      }
+    }
+  }
+}

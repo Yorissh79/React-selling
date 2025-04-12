@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './Sbigph.module.scss'
+import Sbigphcard from '../sbigphcard/Sbigphcard'
 
 const Sbigph = () => {
   return (
@@ -13,7 +14,11 @@ const Sbigph = () => {
 
           <div className={style.cards}>
 
-            
+            <Sbigphcard time="00" text="weeks"/>
+            <Sbigphcard time="00" text="days"/>
+            <Sbigphcard time="00" text="hr"/>
+            <Sbigphcard time="00" text="min"/>
+            <Sbigphcard time="00" text="sec"/>
 
           </div>
 

@@ -7,6 +7,7 @@ import Norph from './components/norph/Norph'
 import Futureproduct from './components/futureproduct/Futureproduct'
 import Aboutus from './components/aboutus/Aboutus'
 import Teaml from './components/teaml/Teaml'
+import Sbigph from './components/sbigph/Sbigph'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Futureproduct/>
       <Aboutus/>
       <Teaml/>
+      <Sbigph/>
 
     </div>
   )

@@ -3,7 +3,7 @@
     background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg");
     background-repeat: no-repeat;
     background-position: 50% -107.8px;
-    background-size: cover;
+    background-size:contain;
     height: 995px;
     width: 100%;
     position: relative;
@@ -18,8 +18,47 @@
     }
 
     .container {
+        position: absolute;
 
-        
+        .f {
+            font-size: 13px;
+            color: #adb5bd;
+            letter-spacing: .2em;
+            font-weight: 700;
+        }
+
+        .s {
+            font-size: 40px;
+            font-weight: 900;
+            color: #fff;
+        }
+
+        .t {
+            color: white;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        .cards {
+
+        }
+
+        .btn {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            outline: none;
+            cursor: pointer;
+            width: 171px;
+            height: 54px;
+            font-size: 1rem;
+            line-height: 1.5;
+            font-weight: 300;
+
+            &:hover {
+                background-color: white;
+            }
+        }
 
     }
 

@@ -74,3 +74,32 @@ $bck : #F8F9FA;
     }
 
 }
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+    
+    .main {
+
+        .icons {
+            width: 50%;
+        }
+
+        .contact {
+            width: 50%;
+            
+            .phone {
+                a {
+                    display: none;
+                }
+            }
+
+            .email {
+                a {
+                    display: none;
+                }
+            }
+
+        }
+
+    }
+
+}

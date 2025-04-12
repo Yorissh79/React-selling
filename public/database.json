@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "image" : "https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg",
+    "title": "Wild West Hoodie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+    "heart" : 29,
+    "star" : "5.0",
+    "fav" : "notfav"
+  },
+
+  {
+    "id": 2,
+    "image" : "https://preview.colorlib.com/theme/selling/images/model_2_bg.jpg",
+    "title": "Wild West Hoodie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+    "heart" : 29,
+    "star" : "5.0",
+    "fav" : "fav"
+  },
+
+  {
+    "id": 3,
+    "image" : "https://preview.colorlib.com/theme/selling/images/model_3_bg.jpg",
+    "title": "Wild West Hoodie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+    "heart" : 29,
+    "star" : "5.0",
+    "fav" : "notfav"
+  },
+
+  {
+    "id": 4,
+    "image" : "https://preview.colorlib.com/theme/selling/images/model_4_bg.jpg",
+    "title": "Wild West Hoodie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+    "heart" : 29,
+    "star" : "5.0",
+    "fav" : "notfav"
+  },
+
+  {
+    "id": 5,
+    "image" : "https://preview.colorlib.com/theme/selling/images/model_5_bg.jpg",
+    "title": "Wild West Hoodie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+    "heart" : 29,
+    "star" : "5.0",
+    "fav" : "notfav"
+  },
+
+  {
+    "id": 6,
+    "image" : "https://preview.colorlib.com/theme/selling/images/product_1_bg.jpg",
+    "title": "Wild West Hoodie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+    "heart" : 29,
+    "star" : "5.0",
+    "fav" : "notfav"
+  }
+]

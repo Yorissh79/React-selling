@@ -1,0 +1,53 @@
+//variables
+$fpara : #adb5bd;
+$tpara : black;
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+
+    .header {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .f {
+            color: $fpara;
+            font-size: 18px;
+        }
+
+        .s {
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        .t {
+            width: 40%;
+            text-align: center;
+            color: $tpara;
+            line-height: 1.8;
+        }
+
+    }
+
+    .cards {
+        width: 1140px;
+        height: 1189px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+
+}

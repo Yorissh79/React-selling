@@ -1,0 +1,80 @@
+//variablers
+$black : #777777;
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .imgbox {
+        width: 262px;
+        height: 262px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .f {
+            font-size: 18px;
+            color: #adb5bd;
+        }
+
+        .s {
+            font-size: 14px;
+            color: #adb5bd;
+            margin-bottom: 20px;
+        }
+
+        .t {
+            width: 349px;
+            line-height: 1.7;
+            color: gray;
+            font-weight: 400;
+            font-size: 15px;
+            text-align: center;
+        }
+
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        padding-bottom: 40px;
+
+        .blackRound {
+            
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background-color: $black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: 0.3s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: black;
+                transition: 0.3s;
+            }
+
+        }
+
+    }
+
+}

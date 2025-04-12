@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 80px;
+
+    .f {
+        font-size: 13px;
+        color: #adb5bd;
+        letter-spacing: .2em;
+        font-weight: 700;
+    }
+
+    .s {
+        color: #000;
+        font-size: 40px;
+        font-weight: 900;
+        padding-bottom: 40px;
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+    }
+}

@@ -5,6 +5,8 @@ import Bigph from './components/bigph/Bigph'
 import Products from './components/products/Products'
 import Norph from './components/norph/Norph'
 import Futureproduct from './components/futureproduct/Futureproduct'
+import Aboutus from './components/aboutus/Aboutus'
+import Teaml from './components/teaml/Teaml'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
       <Products/>
       <Norph/>
       <Futureproduct/>
+      <Aboutus/>
+      <Teaml/>
 
     </div>
   )

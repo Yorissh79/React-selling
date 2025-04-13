@@ -1,0 +1,125 @@
+.main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F8F9FA;
+
+    .f {
+        font-size: 13px;
+        color: #adb5bd;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .s {
+        color: #000;
+        font-size: 40px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+
+    .center {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 3rem;
+        background-color: white;
+
+        .par {
+            font-weight: 500;
+            line-height: 1.2; 
+            color: #000;
+            font-size: 1.5rem;
+        }
+
+        .cen {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 30px;
+            .cenf {
+
+                .fi {
+                    line-height: 1.7;
+                    color: #000;
+                    font-weight: 400;
+                    font-size: 1rem;
+                }
+
+                input {
+                    width: 254px;
+                    height: 43px;
+                    border: 1px solid hsla(0, 1%, 39%, 0.2);
+                }
+
+            }
+
+            .cens {
+
+                .la {
+                    line-height: 1.7;
+                    color: #000;
+                    font-weight: 400;
+                    font-size: 1rem;
+                }
+
+                input {
+                    width: 254px;
+                    height: 43px;
+                    border: 1px solid hsla(0, 1%, 39%, 0.2);
+                }
+
+            }
+
+        }
+
+        .email {
+            input {
+                width: 539px;
+                height: 43px;
+                border: 1px solid hsla(0, 1%, 39%, 0.2);
+            }
+        }
+
+        .msg {
+            textarea {
+                width: 539px;
+                height: 182px;
+                padding: 10px;
+                border: 1px solid hsla(0, 1%, 39%, 0.2);
+            }
+        }
+
+        .btn {
+            background-color: #000;
+            color: white;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 900;
+            border: none;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            outline: none;
+            width: 147px;
+            height: 54px;
+
+            &:hover {
+                background-color: white;
+                border: 2px solid black;
+                transition: 0.3s;
+                color: #000;
+            }
+        }
+
+    }
+
+}

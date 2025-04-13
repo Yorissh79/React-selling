@@ -86,10 +86,17 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    gap: 40px;
+                    gap: 30px;
 
                     .blackRound {
+                        transition: 0.3s;
+                        cursor: pointer;
                         color: grey;
+
+                        &:hover {
+                            transition: 0.3s;
+                            color: #000;
+                        }
                     }
                 }
 
@@ -131,12 +138,13 @@
                 text-transform: uppercase;
                 font-size: 12px;
                 font-weight: 900;
-                padding: 7px 22px;
                 border: none;
                 margin-top: 1rem;
                 cursor: pointer;
                 transition: 0.3s;
                 outline: none;
+                width: 129px;
+                height: 34px;
 
                 &:hover {
                     background-color: white;
@@ -153,6 +161,10 @@
         padding-bottom: 100px;
 
         .bf {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
             color: grey;
 
             a {

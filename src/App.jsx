@@ -12,6 +12,7 @@ import Services from './components/services/Services'
 import Testi from './components/testi/Testi'
 import Blog from './components/blog/Blog'
 import Footer from './components/footer/Footer'
+import Form from './components/form/Form'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Services/>
       <Testi/>
       <Blog/>
+      <Form/>
       <Footer/>
 
     </div>

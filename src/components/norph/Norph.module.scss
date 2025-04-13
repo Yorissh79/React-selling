@@ -6,6 +6,7 @@
     height: 400px;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     align-items: center;
@@ -29,17 +30,20 @@
         flex-direction: column;
         width: 70%;
         height: 50%;
+        gap: 30px;
 
         .para {
             color: white;
             font-size: 28px;
+            text-align: center2;
         }
 
-        .center {
+        .centerr {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: row;
+            width: 90%;
 
             input {
                 width: 60%;
@@ -79,11 +83,50 @@
         }
 
         .lorem {
-            width: 50%;
+            width: 60%;
             color: white;
             font-size: 1rem;
             text-align: center;
         }
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+    .main {
+        width: 100%;
+
+        .center {
+            width: 100%;
+            gap: 20px;
+
+            .para {
+                width: 100%;
+                font-size: 28px;
+            }
+
+            .lorem {
+                width: 95%;
+                font-size: 1rem;
+                line-height: 1.5;
+                font-weight: 300;
+            }
+
+            .centerr {
+
+                input {
+                    width: 70%;
+                }
+
+                .btn {
+                    width: 30%;
+                }
+
+            }
+
+        }
+
     }
 
 }

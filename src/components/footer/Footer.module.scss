@@ -183,3 +183,41 @@
     }
 
 }
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+    .main {
+
+        .center {
+
+            flex-direction: column;
+            width: 90%;
+
+            .centers {
+                flex-direction: column;
+            }
+
+            .right {
+                padding-left: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .imgbox {
+                    width: 90%;
+                    height: auto;
+                }
+            }
+
+        }
+
+        .bottom {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+}

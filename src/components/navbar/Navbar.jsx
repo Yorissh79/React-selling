@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './Navbar.module.scss'
+import { BiMenu } from 'react-icons/bi'
 
 const Navbar = () => {
   return (
@@ -19,6 +20,10 @@ const Navbar = () => {
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
+
+        <div className={style.menu}>
+          <BiMenu style={{width:"28px", height:"29px"}}/> 
         </div>
 
     </div>

@@ -84,3 +84,30 @@
     }
   }
 }
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+  .main{
+
+    .container {
+      width: 100%;
+
+      .t {
+        width: 100%;
+      }
+
+      .cards {
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .btn {
+        width: 90%;
+      }
+
+    }
+
+  }
+
+}

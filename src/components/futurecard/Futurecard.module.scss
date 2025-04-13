@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   gap: 60px;
   padding-bottom: 30px;
   background-color: #fff;
@@ -30,7 +31,7 @@
 
     .para {
         font-weight: 700;
-        font-size: xx-large;
+        font-size: 1.8rem;
     }
 
     .des {
@@ -116,4 +117,37 @@
       }
     }
   }
+}
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+  .main {
+
+    flex-direction: column !important;
+
+    .imgbox {
+
+      width: 304px;
+      height: 304px;
+
+    }
+
+    .text {
+      width: 100%;
+      .para {
+        font-size: 1.5rem;
+      }
+    }
+
+    .btn {
+      width: 100%;
+      flex-direction: column !important;
+
+      button {
+        width: 100% !important;
+      }
+    }
+
+  }
+
 }

@@ -46,3 +46,27 @@ $tpara: black;
         flex-direction: column;
     }
 }
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+  .main {
+
+    .header {
+      padding-bottom: 40px;
+      .s {
+        font-size: 30px;
+      }
+
+      .t {
+        width: 90%;
+      }
+
+    }
+
+    .cards {
+
+    }
+
+  }
+
+}

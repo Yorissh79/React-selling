@@ -54,3 +54,30 @@ $tpara : black;
     }
 
 }
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+    .main {
+
+        .header {
+
+            .s {
+                font-size: 30px;
+            }
+
+            .t {
+                padding-top: 10px;
+                width: 90%;
+            }
+
+        }
+
+        .cards {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+
+}

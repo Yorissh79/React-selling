@@ -73,4 +73,34 @@ $act : #F16821;
 
     }
 
+    .menu {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+    .main {
+
+        .logo {
+
+            width: 50%;
+        }
+
+        .pages {
+            display: none;
+        }
+
+        .menu {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 20px;
+        }
+
+    }
+
 }

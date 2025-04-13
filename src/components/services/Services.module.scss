@@ -30,3 +30,21 @@
     }
 
 }
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+    .main {
+
+        .s {
+            font-size: 30px;
+        }
+
+        .cards  {
+            flex-direction: column !important;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+}

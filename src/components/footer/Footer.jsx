@@ -24,16 +24,16 @@ const Footer = () => {
 
             <ul>
               <li>
-                <a href="about_us">About Us</a>
+                <a href="#about_us">About Us</a>
               </li>
               <li>
                 <a href="#">Services</a>
               </li>
               <li>
-                <a href="Testimonials">Testimonials</a>
+                <a href="#Testimonials">Testimonials</a>
               </li>
               <li>
-                <a href="contact">Contact Us</a>
+                <a href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>

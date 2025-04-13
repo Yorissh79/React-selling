@@ -123,3 +123,81 @@
     }
 
 }
+
+@media screen and (min-width:375px) and (max-width:1000px) {
+
+    .main {
+
+        .s {
+            font-size: 30px;
+        }
+
+        .center {
+            width: 100%;
+            padding: 0px;
+
+            .par {
+                padding-left: 40px;
+            }
+
+            .cen {
+                width: 100%;
+                flex-direction: column;
+
+                .cenf{
+                    width: 80%;
+                    input {
+                        width: 100%;
+                    }
+                }
+                .cens{
+                    width: 80%;
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .email {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+
+                .la {
+                    align-self: flex-start;
+                    padding-left: 40px;
+                }
+                
+                input {
+                    width: 80%;
+                }
+            }
+
+            .msg {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+                .la {
+                    align-self: flex-start;
+                    padding-left: 40px;
+                }
+                
+                textarea {
+                    width: 80%;
+                }
+
+            }
+
+            .btn {
+                margin-left: 40px;
+            }
+
+        }
+
+    }
+
+}

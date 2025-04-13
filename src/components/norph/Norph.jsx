@@ -21,7 +21,7 @@ const Norph = () => {
                 Get notified on each updates.
             </p>
             
-            <div className={style.center}>
+            <div className={style.centerr}>
                 <input type="text" placeholder='Enter your email address' onChange={e => setData(e.target.value)}/>
                 <button className={style.btn} onClick={sendData}>
                     SUBSCRIBE

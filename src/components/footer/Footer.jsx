@@ -5,6 +5,8 @@ const Footer = () => {
   return (
     <div className={style.main}>
       
+        
+
     </div>
   )
 }

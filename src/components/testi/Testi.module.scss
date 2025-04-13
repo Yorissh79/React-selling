@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    width: 100%;
+
+    .f {
+        font-size: 13px;
+        color: #adb5bd;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .s {
+        color: #000;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .slider {
+        width: 1140px;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        height: 481px;
+        overflow-x: auto;
+    }
+
+}

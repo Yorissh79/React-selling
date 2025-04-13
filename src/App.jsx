@@ -9,6 +9,9 @@ import Aboutus from './components/aboutus/Aboutus'
 import Teaml from './components/teaml/Teaml'
 import Sbigph from './components/sbigph/Sbigph'
 import Services from './components/services/Services'
+import Testi from './components/testi/Testi'
+import Blog from './components/blog/Blog'
+import Footer from './components/footer/Footer'
 
 function App() {
 
@@ -25,6 +28,9 @@ function App() {
       <Teaml/>
       <Sbigph/>
       <Services/>
+      <Testi/>
+      <Blog/>
+      <Footer/>
 
     </div>
   )

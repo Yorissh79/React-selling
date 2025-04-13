@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 379px;
+    height: 200px;
+
+    .left {
+        width: 20%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 95%;
+
+        .icon {
+
+            width: 48px;
+            height: 48px;
+
+        }
+
+        .deactive {
+            display: none;
+        }
+
+    }
+
+    .right {
+        width: 70%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+
+        .f {
+            font-size: 20px;
+            color: grey;
+        }
+
+        .s {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            color: gray;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+        .t {
+            color: #ba470c;
+            text-decoration: none;
+            transition: 0.3s;
+
+            &:hover {
+                color: gray;
+                transition: 0.3s;
+            }
+        }
+
+    }
+
+}

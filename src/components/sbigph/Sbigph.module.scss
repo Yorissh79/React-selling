@@ -7,7 +7,10 @@
   height: 995px;
   width: 100%;
   position: relative;
-//   background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   &::after {
     content: "";
@@ -22,9 +25,15 @@
 
   .container {
     position: absolute;
+    z-index: 55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 
     .f {
-      font-size: 13px;
+      font-size: 15px;
       color: #adb5bd;
       letter-spacing: 0.2em;
       font-weight: 700;
@@ -40,9 +49,18 @@
       color: white;
       line-height: 1.5;
       font-weight: 300;
+      font-size: 20px;
+      width: 645px;
+      line-height: 1.5;
+      text-align: center;
     }
 
     .cards {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
     }
 
     .btn {
@@ -54,11 +72,14 @@
       width: 171px;
       height: 54px;
       font-size: 1rem;
-      line-height: 1.5;
-      font-weight: 300;
+      font-size: 12px;
+      font-weight: 900;
+      transition: 0.3s;
 
       &:hover {
         background-color: white;
+        color: black;
+        transition: 0.3s;
       }
     }
   }

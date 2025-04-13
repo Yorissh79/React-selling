@@ -8,6 +8,7 @@ import Futureproduct from './components/futureproduct/Futureproduct'
 import Aboutus from './components/aboutus/Aboutus'
 import Teaml from './components/teaml/Teaml'
 import Sbigph from './components/sbigph/Sbigph'
+import Services from './components/services/Services'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Aboutus/>
       <Teaml/>
       <Sbigph/>
+      <Services/>
 
     </div>
   )
